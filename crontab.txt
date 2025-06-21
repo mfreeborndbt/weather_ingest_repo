@@ -1,0 +1,3 @@
+#run crontab crontab.txt to use it
+
+0 * * * * /usr/bin/python3 /home/ec2-user/weather_fetcher.py >> /home/ec2-user/weather-etl-nyc/weather.log 2>&1
